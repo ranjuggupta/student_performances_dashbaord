@@ -1,29 +1,37 @@
-# student_performances_dashbaord
-This Power BI dashboard provides insights into student performance, highlighting top performers and defaulters. It can be used to track progress and identify students who may need timely reminders
-Power BI Project Overview (4 Pages Dashboard):
+Power BI Dashboard: Student Performance Analysis (4 Pages)
 
-Student-wise Detailed View (Page 1):
-The first page provides a detailed view of individual student performance. A slicer is used to select a student's name, and upon selection, all relevant details about that student are displayed.
+🔍 Overview:
+This interactive Power BI dashboard offers a clear picture of student performance, spotlighting top achievers and identifying defaulters. It helps track academic progress and can assist in sending timely reminders to students who need support.
 
-Batch Summary & Student Status (Page 2):
-This page gives a comprehensive summary of the batch. It shows:
+📄 Page 1: Student-Wise Details
+A dynamic slicer lets you select any student’s name to instantly view their full performance report — including attendance, test scores, and task completion.
 
-Total number of students
+📊 Page 2: Batch Summary & Student Status
+This page gives a snapshot of the entire batch:
 
-Number of dropouts
+Total students
 
-Number of active students currently pursuing the course
+Active students
 
-Additionally, a custom calculation has been implemented to evaluate punctuality. If a student's attendance, MCQ scores, lab performance, TD, and TD assessments are all above 70%, they are marked as "On-Time Performers"; otherwise, they are considered "Not On-Time".
+Dropouts
 
-Top 5 Performers (Page 3):
-This page highlights the top 5 performers using three charts:
+It also features a custom logic to classify students based on their consistency. If their attendance, MCQ, lab work, TD, and assessments are all above 70%, they are labeled as “On-Time Performers.” Others are marked as “Not On-Time.”
 
-Top 5 based on attendance
+🏅 Page 3: Top 5 Performers
+Three visualizations display the top 5 students based on:
 
-Top 5 based on final marks
+Attendance
 
-Top 5 based on overall performance (considering on-time submissions and overall consistency)
+Final marks
+
+Overall performance (including on-time submissions)
+
+These charts help recognize the most consistent and high-performing students.
+
+⚠️ Page 4: Defaulters List
+This section flags students with incomplete or delayed work. It can be used to send follow-up reminders or warnings, ensuring they stay on track.
+
+
 
 This analysis helps identify high-performing students in the batch, which can be useful during placement shortlisting.
 
